@@ -13,6 +13,7 @@ You will find this is far easier than the opposite task of using CSS to cram you
 *********************************************************************/
 @import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
 
+
 /*********************************************************************
   YOUR MOBILE/BASE STYLES GO HERE
 *********************************************************************/
@@ -20,11 +21,57 @@ You will find this is far easier than the opposite task of using CSS to cram you
     box-sizing: border-box;
 }
 
+.text{
+  /*This is for a basic website
+  margin: 20px;
+
+  */
+
+  margin: auto;
+  margin-top: 20px;
+  background-color: wheat;
+  padding:20px;
+  max-width: 600px;
+}
+
+body {
+  background-color: lavender;
+}
+
+figure{
+  max-width: 600px;
+}
+
+img{max-width: 100%}
+
+h1, h6 {
+  text-align: center;
+}
 html, body {
     /* Sets default font-size to 16px, ensuring 1em = 16px; */
     font-size: 16px;
+    font-family: Georgia, serif;
 }
 
+figcaption {
+  color: grey;
+}
+
+h1 {
+  text-transform: uppercase;
+}
+
+h6 {
+  color: grey;
+}
+
+.blue-text {
+  color: blue;
+ }
+
+.red-text {
+  color: red;
+ }
 /*********************************************************************
   YOUR TABLET/DESKTOP STYLES GO HERE
 *********************************************************************/
